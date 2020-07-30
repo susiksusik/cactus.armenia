@@ -23,13 +23,14 @@ body{
   background-image: url("img/logo1.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 25%;
+  background-size: 100%;
   //position: absolute;
   //top: 60%;
   //margin-left: 78px;
   //transform: translateY(-45 );
-  width: 100%;
+  max-width: 538px;
   height: 300px;
+  margin: 0 auto;
   text-align: center;
   cursor:pointer;
   display: block;

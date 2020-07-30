@@ -1,4 +1,7 @@
 import Vue from 'vue'
+import Buefy from 'buefy'
+import { Table, Input } from 'buefy'
+import 'buefy/dist/buefy.css'
 import VueRouter from 'vue-router'
 import App from './App.vue'
 import Home from './components/Home.vue'
@@ -8,7 +11,10 @@ import Blog from './components/Cact-blog.vue'
 import Help from './components/help.vue'
 
 Vue.config.productionTip = false
-Vue.use(VueRouter);
+Vue.use(VueRouter)
+Vue.use(Buefy)
+Vue.use(Table)
+Vue.use(Input)
 
 require("./assets/main.scss")
 
